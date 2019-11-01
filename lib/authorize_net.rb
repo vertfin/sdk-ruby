@@ -37,6 +37,8 @@ require "authorize_net/api/transaction"
 
 # Load our Rails plugin
 
+# JMS says... nope!
+=begin
 if defined?(Rails)
   if defined?(Rails::Railtie)
     module AuthorizeNet
@@ -60,3 +62,4 @@ if defined?(Rails)
     end
   end
 end
+=end
